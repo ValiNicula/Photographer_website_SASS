@@ -105,7 +105,7 @@ input[class^="btn-"]:hover {
     position: absolute;
     display: block;
     background: inherit;
-    opacity: 0.9;
+    opacity: 0.5;
     top: 0;
     left: 0;
     width: 100%;
@@ -302,7 +302,8 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  grid-template-areas: "bioimage bio bio"
+ "aw1 aw2 aw3";
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -375,7 +376,9 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: "name email"
+ "subject phone"
+ "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -529,11 +532,19 @@ img {
       border: none;
       padding-bottom: 0; }
   #about-a .about-info {
-    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
+    grid-template-areas: "bioimage"
+ "bio"
+ "aw1"
+ "aw2"
+ "aw3"; }
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+    grid-template-areas: "name"
+ "subject"
+ "email"
+ "phone"
+ "message"; }
     #contact-a .text-fields .text-input {
       border: 1px solid #333;
       border-radius: 5px; }
